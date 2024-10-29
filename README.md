@@ -74,8 +74,7 @@ Em breve novas analises serão implementadas!
 ## 🚀 Como Rodar o Projeto
 Para iniciar o aplicativo em um ambiente local, siga estas etapas:
 
-```bash
-Copiar código  
+```bash  
 ## Clone o repositório  
 git clone https://github.com/Vinicius-FBr/streamlit-jiu-jitsu.git
 ```
@@ -95,13 +94,6 @@ python projeto_jiu_jitsu_scraping.py
 # Execute o arquivo para visualizar o Dashboard
 streamlit run projeto_jiu_jitsu_dash.py
 ```
-
-## 💡 Principais Desafios e Soluções
-Implementação do Mapa de Calor
-Explicação breve sobre os desafios enfrentados e como foram resolvidos para criar o mapa de calor das áreas de ataque/defesa.
-
-Otimização de Consulta ao Banco de Dados
-Breve explicação sobre as estratégias utilizadas para melhorar a eficiência das consultas ao banco de dados PostgreSQL.
 
 ## 🤝 Contribuições
 Contribuições são bem-vindas! Para contribuir, faça um fork do projeto e envie um pull request.
