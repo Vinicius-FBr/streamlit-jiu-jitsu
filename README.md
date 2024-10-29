@@ -40,20 +40,33 @@ Você pode usar uma série de filtros para visualizar os dados da forma que pref
 Em breve novas analises serão implementadas!
 
 ## 🛠️ Tecnologias Utilizadas
-Linguagens: Python
-Bibliotecas e Módulos: Pandas, Streamlit, Matplotlib, Seaborn
-Banco de Dados: PostgreSQL (para armazenamento de dados de combate de Jiu-Jitsu)
 
-## 📋 Pré-Requisitos
-Instalar Python
-Instalar dependências do projeto:
+**Linguagens:**   
+- Python
+
+**Bibliotecas e Módulos:**  
+- Pandas
+- Streamlit
+- Matplotlib
+- Seaborn
+
+**Banco de Dados:**   
+- PostgreSQL
+
+**Plataforma Clound:**  
+- Tembo.io  
+- Streamlit Community Cloud
+
+## 📋 Pré-Requisitos  
+Instalar Python  
+Instalar dependências do projeto:  
 bash
 Copiar código
 pip install -r requirements.txt
 
 ## 🗂️ Estrutura do Projeto
-bash
-Copiar código
+bash  
+Copiar código  
 .
 ├── main.py              # Arquivo principal para rodar o app Streamlit
 ├── data/                # Arquivos de dados (se aplicável)
