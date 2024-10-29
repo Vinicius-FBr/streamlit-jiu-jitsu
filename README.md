@@ -97,3 +97,7 @@ streamlit run projeto_jiu_jitsu_dash.py
 
 ## 🤝 Contribuições
 Contribuições são bem-vindas! Para contribuir, faça um fork do projeto e envie um pull request.
+
+## ⚠️ Observação Importante  
+As análises contidas nesse projeto foram realizadas com base nos dados obtidos no site BJJ Heroes (https://www.bjjheroes.com/a-z-bjj-fighters-list). Não existe garantia de que todo o histórico de lutas do atleta esteja contido na base de dados, assim, as análises apresentadas podem não refletir a realidade devido a possibilidade da fonte de dados não estar completa. 
+
