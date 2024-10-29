@@ -65,30 +65,30 @@ Em breve novas analises serão implementadas!
     pip install -r requirements.txt
 ```
 
-## 🗂️ Estrutura do Projeto
-bash  
-Copiar código  
-.
-├── main.py              # Arquivo principal para rodar o app Streamlit
-├── data/                # Arquivos de dados (se aplicável)
-├── images/              # Imagens e banners utilizados no projeto
-├── utils/               # Scripts de apoio
-├── README.md            # Documentação do projeto
-└── requirements.txt     # Dependências do projeto
-
 ## 🚀 Como Rodar o Projeto
 Para iniciar o aplicativo em um ambiente local, siga estas etapas:
 
-bash
-Copiar código
-## Clone o repositório
-git clone https://github.com/seu_usuario/jiu-jitsu-data-analysis.git
+```bash
+Copiar código  
+## Clone o repositório  
+git clone https://github.com/Vinicius-FBr/streamlit-jiu-jitsu.git
+```
 
-## Navegue até a pasta do projeto
-cd jiu-jitsu-data-analysis
+É necessário atualizar as informações de conexão de banco de dados, presentes no arquivo projeto_jiu_jitsu_scraping.py com os seus dados. O mesmo deve ser feito no arquivo projeto_jiu_jitsu_dash.py. 
 
-## Execute o Streamlit
-streamlit run main.py
+Caso esteja rodando o projeto em um banco de dados local, não é grave deixar as informações de conexão no próprio código, como fiz no projeto_jiu_jitsu_scraping.py
+
+Agora, caso pretenda disponibilizar o código para outros usuários, não é recomendado deixar as informações do código, isso acarreta problemas de segurança. Uma possibilidade seria utilizar um arquivo .env (conforme utilizei no projeto_jiu_jitsu_dash.py). Coloque as credenciais no arquivo e deixe-o salvo no mesmo diretório do script para gerar o dashboard. 
+
+Após seguir as recomendações acima:
+
+```bash
+## Execute o script de Web Scrapping - isso demora em torno de 20 minutos  
+python projeto_jiu_jitsu_scraping.py
+
+# Execute o arquivo para visualizar o Dashboard
+streamlit run projeto_jiu_jitsu_dash.py
+```
 
 ## 💡 Principais Desafios e Soluções
 Implementação do Mapa de Calor
