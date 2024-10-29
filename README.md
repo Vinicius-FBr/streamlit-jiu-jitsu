@@ -58,11 +58,11 @@ Em breve novas analises serão implementadas!
 - Streamlit Community Cloud
 
 ## 📋 Pré-Requisitos  
-Instalar Python  
-Instalar dependências do projeto:  
-bash
-Copiar código
-pip install -r requirements.txt
+1. Instalar Python  
+2. Instalar dependências do projeto:  
+
+```bash
+    pip install -r requirements.txt```
 
 ## 🗂️ Estrutura do Projeto
 bash  
