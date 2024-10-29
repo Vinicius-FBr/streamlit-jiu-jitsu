@@ -10,10 +10,10 @@ Segue o link para acessar o Dashboard: https://app-jiu-jitsu-szkogmnlelxfot2qehc
 
 O desenvolvimento do projeto seguiu as seguintes etapas:
 
-1️⃣ Coleta de Dados: Realizei Web Scraping com a biblioteca Beautiful Soup para obter a base de dados;  
-2️⃣ Armazenamento: A base foi inicialmente armazenada em um banco PostgreSQL local, utilizando SQLAlchemy. Posteriorment, fiz a migração para o Tembo, um serviço de cloud com um free tier excelente;  
-3️⃣ Dashboard: Usei o Streamlit para criar uma visualização interativa dos dados;  
-4️⃣ Deployment: Utilizei a própria plataforma do Streamlit (Streamlit Community Cloud) para realizar o deploy do projeto. 
+1️⃣ **Coleta de Dados:** Realizei Web Scraping com a biblioteca Beautiful Soup para obter a base de dados;  
+2️⃣ **Armazenamento:** A base foi inicialmente armazenada em um banco PostgreSQL local, utilizando SQLAlchemy. Posteriorment, fiz a migração para o Tembo, um serviço de cloud com um free tier excelente;  
+3️⃣ **Dashboard:** Usei o Streamlit para criar uma visualização interativa dos dados;  
+4️⃣ **Deployment:** Utilizei a própria plataforma do Streamlit (Streamlit Community Cloud) para realizar o deploy do projeto. 
 
 A principal funcionalidade se encontra na página "Fighter Analysis". Nessa página você encontra o mapa de calor do corpo humano, destacando as áreas em que o atleta selecionado é mais eficiente atacando (nas vitórias) e onde ele tende a se expor (nas derrotas). 
 
@@ -21,16 +21,23 @@ Vamos usar como exemplo o Micael Galvão (do qual sou muito fã):
 
 A imagem a seguir mostra as áreas que históricamente o Mica é mais eficiente nos ataques. É perigoso deixar os braços, e principalmente, o pescoço desprotegido em uma luta contra o Micael. 
 
-![Mapa de Calor de Vitórias](mica-01.png)
+<p align="center">
+  <img src="mica-01.png" alt="Mapa de Calor de Vitórias" width="300">
+</p>
 
 Nas poucas derrotas por finalização que o Micael Galvão sofreu, o seu pé/tornozelo foi atacado, o que indica que esse pode ser um caminho a ser explorado pelos adversários. 
 
-![Mapa de Calor de Derrotas](mica-02.png)
+<p align="center">
+  <img src="mica-02.png" alt="Mapa de Calor de Derrotas" width="300">
+</p>
 
-Mapa de Calor de Áreas de Ataque e Defesa: Visualize as áreas do corpo mais frequentemente envolvidas em ataques e defesas do atleta, exibidas como um mapa de calor em uma imagem.
-Análise de Técnicas de Combate: Tabelas interativas com as principais técnicas de vitória e derrota do atleta, incluindo a porcentagem de ocorrência de cada técnica.
-Filtros Personalizáveis: Filtre os dados com base no atleta, método de vitória/derrota, e tipo de técnica.
-Visualizações Gráficas e Interativas: Inclui gráficos adicionais para uma análise ampla das performances e padrões do atleta.
+Além disso, na página "General Analysis" você pode visualizar algumas análises gerais sobre o esporte:  
+- Evolução do número de lutas competitivas de Jiu-Jitsu ao longo dos anos;
+- Número de lutas que cada equipe teve. Identificamos que a equipe com o maior número de lutas é a Alliance.
+
+Você pode usar uma série de filtros para visualizar os dados da forma que preferir. 
+
+Em breve novas analises serão implementadas!
 
 ## 🛠️ Tecnologias Utilizadas
 Linguagens: Python
