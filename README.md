@@ -62,7 +62,8 @@ Em breve novas analises serão implementadas!
 2. Instalar dependências do projeto:  
 
 ```bash
-    pip install -r requirements.txt```
+    pip install -r requirements.txt
+```
 
 ## 🗂️ Estrutura do Projeto
 bash  
