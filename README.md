@@ -81,7 +81,7 @@ git clone https://github.com/Vinicius-FBr/streamlit-jiu-jitsu.git
 
 É necessário atualizar as informações de conexão de banco de dados, presentes no arquivo projeto_jiu_jitsu_scraping.py com os seus dados. O mesmo deve ser feito no arquivo projeto_jiu_jitsu_dash.py. 
 
-Caso esteja rodando o projeto em um banco de dados local, não é grave deixar as informações de conexão no próprio código, como fiz no projeto_jiu_jitsu_scraping.py
+Caso esteja rodando o projeto em um banco de dados local, é ok deixar as informações de conexão no próprio código, como fiz no projeto_jiu_jitsu_scraping.py
 
 Agora, caso pretenda disponibilizar o código para outros usuários, não é recomendado deixar as informações do código, isso acarreta problemas de segurança. Uma possibilidade seria utilizar um arquivo .env (conforme utilizei no projeto_jiu_jitsu_dash.py). Coloque as credenciais no arquivo e deixe-o salvo no mesmo diretório do script para gerar o dashboard. 
 
