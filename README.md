@@ -46,9 +46,15 @@ Em breve novas analises serão implementadas!
 
 **Bibliotecas e Módulos:**  
 - Pandas
+- Beautiful Soup
 - Streamlit
-- Matplotlib
-- Seaborn
+- Plotly
+- Regex
+- SQLAlchemy
+- psycopg2-binary
+- Python-dotenv
+- Pillow
+- Requests
 
 **Banco de Dados:**   
 - PostgreSQL
